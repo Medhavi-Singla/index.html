@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Agenda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      color: black;
+      background-color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    .subline {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .agenda {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 20px;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+      align-items: start;
+    }
+    .header {
+      font-weight: bold;
+      background-color: #f0f0f0;
+      border-top: 2px solid #000;
+      border-bottom: 2px solid #000;
+    }
+    .session {
+      font-weight: bold;
+    }
+    .overview {
+      font-weight: normal;
+    }
+    .speakers {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .speaker {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .speaker img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="subline">Date and time is shown in (UTC -07:00) America/Los_Angeles</div>
+  <h2>Event Agenda</h2>
+
+  <div class="agenda header">
+    <div>Time</div>
+    <div>Session</div>
+    <div>Speaker Name</div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">8:00 AM - 8:05 AM</div>
+    <div class="overview"><b>Welcome Note</b><br>Brief welcome, overview of the day, introduction to the themes and guiding principles.</div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/12212918695?profile=RESIZE_400x" alt="Naveen Jain">
+        <span><b>Naveen Jain</b><br>President and Founder<br>CULytics</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">8:05 AM – 8:35 AM</div>
+    <div class="overview">
+     <b> Lessons from the Front Lines: What Works in AI Implementation</b><br>
+      Real-world lessons on what’s worked—and what hasn’t—when applying AI for attrition modeling, member insights, and operations optimization. Insights from CEFCU’s award-winning data team.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668826661?profile=RESIZE_584x" alt="Jennifer Flexer">
+        <span><b>Jennifer Flexer</b><br>Vice President Data Governance, Strategy, and Analytics<br>
+Citizens Equity First Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">8:35 AM – 9:15 AM</div>
+    <div class="overview">
+      <b>Innovation Showcase</b>    </div>
+    <div class="speakers">
+      <!-- Add images if available -->
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">9:15 AM – 9:25 AM</div>
+    <div class="overview"><b>Break, Networking and Exhibit Booths</b><br>Network with attendees and checkout the exhibit booths.</div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">9:25 AM – 9:55 AM</div>
+    <div class="overview">
+      <b>Smart AI Guardrails: How CUs Balance Innovation with Risk</b><br>
+      Discover how leading CUs are deploying AI safely, using clear governance, risk frameworks, and ethical practices to innovate with confidence. Includes practical tools for oversight, not overkill.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668828290?profile=original" alt="Adrian Rodriguez">
+        <span><b>Adrian Rodriguez</b><br>Senior Vice President, Data and Innovation<br>
+American Heritage Credit Union</span>
+      </div>
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668828484?profile=RESIZE_584x" alt="Nancy Sternitzky">
+        <span><b>Nancy Sternitzky</b><br>SVP Chief Information & Digital Officer<br>
+Sound Credit Union</span>
+      </div>
+<div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/1492417718?profile=original" alt="Nancy Sternitzky">
+        <span><b>Bob Little</b><br>Advisor<br>
+CULytics</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">9:55 AM – 10:15 AM</div>
+    <div class="overview"><b>Case Studies from Industry Leaders</b></div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">10:15 AM – 10:45 AM</div>
+    <div class="overview">
+      <b>Buying Smart: How to Evaluate and Select AI Vendors That Deliver</b><br>
+      Learn the step-by-step process Technology CU uses to evaluate AI vendors: filtering hype, verifying results, and ensuring vendor partners can scale with your mission and risk standards.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668829856?profile=RESIZE_400x" alt="Sunder Srinivasan">
+        <span><b>Sunder Srinivasan</b><br>CIO<br>
+Technology Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">10:45 AM – 10:55 AM</div>
+    <div class="overview"><b>Break, Networking and Exhibit Booths</b><br>Network with attendees and checkout the exhibit booths.</div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">10:55 AM – 11:25 AM</div>
+    <div class="overview">
+      <b>Disaster Recovery to Retention: AI That Keeps Members Close</b><br>
+      See how BCU used AI to personalize disaster response, build trust during crises, and drive long-term member retention—plus how your CU can activate the same playbook.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668829897?profile=RESIZE_1200x" alt="Jill Sammons">
+        <span><b>Jill Sammons</b><br>Senior Vice President, Marketing & Strategic Growth<br>BCU</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">11:25 AM – 11:45 AM</div>
+    <div class="overview"><b>Case Studies from Industry Leaders</b></div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">11:45 AM – 12:15 PM</div>
+    <div class="overview">
+      <b>Case Study by Solarity Credit Union</b>
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/12423495468?profile=RESIZE_584x" alt="David Eldred">
+        <span><b>David Eldred</b><br>Chief Expierience Officer<br>Solarity Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">12:15 PM – 12:25 PM</div>
+    <div class="overview"><b>Break, Networking and Exhibit Booths</b><br>Network with attendees and checkout the exhibit booths.</div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">12:25 PM – 12:55 PM</div>
+    <div class="overview">
+      <b>Fraud Fighters: AI Use Cases from the CU Trenches</b><br>
+      A rapid-fire panel of real CU fraud leaders sharing what they’ve built, how it’s performing, and what they’d do differently—covering identity theft, transaction fraud, and predictive controls.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668830291?profile=RESIZE_930x" alt="Taylor">
+        <span><b>Taylor Tarras</b><br>Fraud Manager<br>
+Royal Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">12:55 PM – 1:05 PM</div>
+    <div class="overview"><b>Case Studies from Industry Leaders</b></div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">1:05 PM – 1:35 PM</div>
+    <div class="overview">
+      <b>Making the Right Move: Evaluating When to Build, Buy, or Partner for AI</b><br>
+      Decision models and real stories and to help your CU choose the right path—DIY, vendor partnership, or hybrid—for delivering secure, scalable, and compliant AI.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/8755749477?profile=RESIZE_584x" alt="Jon Deutsch">
+        <span><b>Jon Deutsch</b><br>Managing Principal<br>
+CULytics</span>
+      </div>
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668834493?profile=RESIZE_930x" alt="Amber Lake Nguyen">
+        <span>Amber Nguyen</b><br>Vice President, Process Innovation<br>
+Mission Federal Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">1:35 PM – 1:45 PM</div>
+    <div class="overview"><b>Break, Networking and Exhibit Booths</b><br>Network with attendees and checkout the exhibit booths.</div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">1:45 PM – 2:00 PM</div>
+    <div class="overview">
+      <b>Innovation Showcase</b></div>
+    <div class="speakers"></div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">2:00 PM – 2:30 PM</div>
+    <div class="overview">
+     <b> Big Results, Small Budget: Grassroots AI Wins</b><br>
+      Explore how small CU teams are launching AI pilots with limited resources, leveraging no-code tools, upskilling internal staff, and proving that great outcomes don’t require big checks.
+    </div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668835057?profile=RESIZE_400x" alt="Zach Wikstrom">
+        <span><b>Zachary Wikstrom</b><br>Manager, Data Analytics<br>
+Firstmark Credit Union</span>
+      </div>
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/13668836864?profile=original" alt="David Avina">
+        <span><b>David Avina</b><br>Snior Programmer<br>
+Redwood Credit Union</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="agenda">
+    <div class="session">2:30 PM – 2:35 PM</div>
+    <div class="overview"><b>Closing</b><br>Recap for the Day</div>
+    <div class="speakers">
+      <div class="speaker">
+        <img src="https://storage.ning.com/topology/rest/1.0/file/get/12212918695?profile=RESIZE_400x" alt="Naveen Jain">
+        <span><b>Naveen Jain</b><br>President and Founder<br>CULytics</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
