@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Protected Content</title>
+</head>
+
+<body>
+
+<h1>Welcome to CULytics</h1>
+
+<p>
+This is protected content.
+</p>
+
+<p>
+If you can see this page after login,
+the system works.
+</p>
+
+</body>
+
+</html>
